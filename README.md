@@ -10,9 +10,9 @@
 ## Installing
 
 Installation is simple. 
-Run `composer install`
-Add Database in PHP Myadmin, database file is in root folder with database.sql name
-Add Database detials in config.php file inside config folder
+1. Run `composer install`
+2. Add Database in PHP Myadmin, database file is in root folder with database.sql name
+3. Add Database detials in config.php file inside config folder
 
 
 
