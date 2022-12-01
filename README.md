@@ -22,6 +22,7 @@ XML files are inside the assets/xml folder.
 Created a simple page with a search form (should search by author only from data base). 
 Result printed right after search form. Search word populated to the input after submitting for better user experience. Result design requirements: rows slide from left to right one after another with some small animated delay. 
 Data grid (result) display the author and assigned books. Please use single sql query.
+For Cron job the route is created in web.php file inside the route folder with fetchxmlfeed named, that we can use for cron job with time. EX. *       *       *       *       *       /usr/bin/php path/to/function &> /dev/null
 
 ## Demo 
 https://bitpixelguru.com/transfermate/?s=a
